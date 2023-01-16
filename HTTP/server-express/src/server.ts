@@ -8,6 +8,6 @@ server.use('/s',routes.schemeRoute);
 server.use('/api',routes.apiRoute);
 server.use(express.json());
 
-server.listen(port,()=>{console.log("Server listening at:",port)});
+server.listen(port,()=>{console.log("Express listening at:",port)});
 
 
