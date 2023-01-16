@@ -1,4 +1,4 @@
-# Express Server :package:
+# Koa Server :package:
 - Install dependencies:
 ```console
 npm install
