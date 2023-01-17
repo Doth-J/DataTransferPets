@@ -5,11 +5,13 @@ import bodyParser from "koa-bodyparser";
 import logger from "koa-logger";
 
 import { apiRoute,schemeRoute } from "./routes";
+import { responseTime } from "./middleware";
 
 const server = new Koa();
 const port = parseInt(process.argv[2]) | 3001;
 
 server.use(json());
+server.use(responseTime());
 server.use(bodyParser());
 server.use(logger());
 

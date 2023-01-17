@@ -11,6 +11,7 @@ Koa is Express's grandchild aiming to be a smaller, more expressive, and more ro
 ### [Aedes Broker](./MQTT/broker-aedes/)
 Barebone MQTT server that can run on any stream servers. This template pet project provides brokering services using [Aedes](https://github.com/moscajs/aedes).
 ### [MQTT Client](./MQTT/client-mqtt/)
+An interactive MQTT client for connecting to an MQTT Broker. This template pet project provides connection services using [MQTT](https://github.com/mqttjs/MQTT.js)
 
 ## Transport Control Protocol Sockets :label:
 ### [Socket.io Server](./TCP%20Sockets/server-socketio/)
